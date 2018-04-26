@@ -99,7 +99,7 @@
 
         <!-- Signup Button -->
         <android.support.v7.widget.AppCompatButton
-            android:id="@+id/btn_signup"
+            android:id="@+id/button_signup"
             android:onClick="register"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
