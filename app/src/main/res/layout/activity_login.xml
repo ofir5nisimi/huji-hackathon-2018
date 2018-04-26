@@ -76,6 +76,7 @@
                 android:id="@+id/buyer_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="go_to_order_categories"
                 android:text="קונה" />
 
             <Button
