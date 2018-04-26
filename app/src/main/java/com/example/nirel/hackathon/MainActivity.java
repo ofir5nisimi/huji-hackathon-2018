@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void volunteer(View view) {
+
         // Create an Intent to start the login activity
         Intent myIntent = new Intent(this, VolunteerLoginActivity.class);
         MainActivity.this.startActivity(myIntent);
