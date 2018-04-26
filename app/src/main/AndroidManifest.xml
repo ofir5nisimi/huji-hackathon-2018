@@ -25,7 +25,11 @@
         <activity android:name=".loginActivity" />
         <activity
             android:name=".LoginActivity"
-            android:label="@string/title_activity_login"></activity>
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".BreadActivity"
+            android:label="@string/title_activity_bread"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

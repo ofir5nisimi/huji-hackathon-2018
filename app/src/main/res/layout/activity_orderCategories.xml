@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/bread_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="bread_sec"
+        android:text="לחם"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <Button
+        android:id="@+id/milk_button"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="milk_sec"
+        android:text="מוצרי חלב"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <Button
+        android:id="@+id/vegetables_button"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="veg_sec"
+        android:text="ירקות"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <Button
+        android:id="@+id/fruit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="fruit_sec"
+        android:text="פירות"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <Button
+        android:id="@+id/house_products_button"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="house_sec"
+        android:text="מוצרים לבית"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <Button
+        android:id="@+id/extra_button"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="extra_sec"
+        android:text="מוצרים נוספים"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+
+</android.support.constraint.ConstraintLayout>
