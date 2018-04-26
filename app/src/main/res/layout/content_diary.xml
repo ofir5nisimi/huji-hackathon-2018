@@ -6,6 +6,6 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".DiaryActivity"
-    tools:showIn="@layout/activity_milk">
+    tools:showIn="@layout/activity_diary">
 
 </android.support.constraint.ConstraintLayout>

@@ -12,7 +12,7 @@ public class DiaryActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_milk);
+        setContentView(R.layout.activity_diary);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -24,6 +24,26 @@ public class DiaryActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+    }
+
+    public void add_milk_tnuva(){
+
+    }
+
+    public void add_milk_tara(){
+
+    }
+
+    public void add_g_tzehuba_emek(){
+
+    }
+
+    public void add_g_tzehuba_gush_halav(){
+
+    }
+
+    public void add_g_tzehuba_noam(){
+
     }
 
 }
