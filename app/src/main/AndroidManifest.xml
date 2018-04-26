@@ -26,26 +26,7 @@
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login" />
-        <activity
-            android:name=".BreadActivity"
-            android:label="@string/title_activity_bread"
-            android:theme="@style/AppTheme" />
-        <activity
-            android:name=".DiaryActivity"
-            android:label="@string/title_activity_milk"
-            android:theme="@style/AppTheme" />
-        <activity
-            android:name=".FruitActivity"
-            android:label="@string/title_activity_fruit" />
-        <activity
-            android:name=".VegetablesActivity"
-            android:label="@string/title_activity_vegetables" />
-        <activity
-            android:name=".HouseBasicsActivity"
-            android:label="@string/title_activity_house_basics" />
-        <activity
-            android:name=".ExtrasActivity"
-            android:label="@string/title_activity_extras"></activity>
+        <activity android:name=".HelperMainActivity"></activity>
     </application>
 
 </manifest>
