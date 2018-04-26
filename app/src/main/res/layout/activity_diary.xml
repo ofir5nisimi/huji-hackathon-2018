@@ -7,42 +7,78 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/g_noam"
         android:layout_width="170dp"
         android:layout_height="166dp"
-        app:srcCompat="@drawable/g_tzehuba_noam"
-        tools:layout_editor_absoluteX="195dp"
-        tools:layout_editor_absoluteY="4dp" />
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/g_emek"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/g_tzehuba_noam" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/g_g_halav"
         android:layout_width="195dp"
         android:layout_height="181dp"
-        app:srcCompat="@drawable/g_tzehuba_gush_halav"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="4dp" />
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/g_noam"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/g_tzehuba_gush_halav" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/g_emek"
         android:layout_width="155dp"
-        android:layout_height="168dp"
-        app:srcCompat="@drawable/g_tzehuba_emek"
-        tools:layout_editor_absoluteX="210dp"
-        tools:layout_editor_absoluteY="199dp" />
+        android:layout_height="166dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/milk_tnuva"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/g_tzehuba_emek" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/milk_tara"
         android:layout_width="195dp"
-        android:layout_height="193dp"
-        app:srcCompat="@drawable/milk_tara"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="183dp" />
+        android:layout_height="174dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/g_emek"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/g_g_halav"
+        app:srcCompat="@drawable/milk_tara" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/milk_tnuva"
         android:layout_width="189dp"
         android:layout_height="168dp"
-        app:srcCompat="@drawable/milk_tnuva"
-        tools:layout_editor_absoluteX="195dp"
-        tools:layout_editor_absoluteY="376dp" />
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:srcCompat="@drawable/milk_tnuva" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="171dp"
+        android:layout_height="162dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/milk_tara"
+        app:srcCompat="@drawable/koteg" />
 </android.support.constraint.ConstraintLayout>
