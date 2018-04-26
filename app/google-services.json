@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "503894579900",
+    "firebase_url": "https://hujihack2018-61e2e.firebaseio.com",
+    "project_id": "hujihack2018-61e2e",
+    "storage_bucket": "hujihack2018-61e2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503894579900:android:a1967d0d2724e17a",
+        "android_client_info": {
+          "package_name": "com.example.nirel.hackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503894579900-8pimni7sd8ig4b0eq2gjlp01l9240kva.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nirel.hackathon",
+            "certificate_hash": "66df659ed915a71603a88d6a2f9cd0884f1f71a9"
+          }
+        },
+        {
+          "client_id": "503894579900-epjdbeua8pa8j0hjupseubgouqv66cnq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPRg3BjsMF73w1Ulgcn476lVD2AyN0rtA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503894579900-epjdbeua8pa8j0hjupseubgouqv66cnq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
