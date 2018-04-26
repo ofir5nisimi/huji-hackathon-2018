@@ -14,7 +14,7 @@
         android:alpha="0.9"
         android:background="@drawable/main_background"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="0dp">
 
         <ImageView
@@ -27,27 +27,28 @@
             app:srcCompat="@drawable/main_logo" />
 
         <Button
-            android:id="@+id/login_button"
-            android:onClick="login"
+            android:id="@+id/volunteer_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="32dp"
-            android:text="כניסה"
+            android:layout_marginBottom="65dp"
+            android:onClick="volunteer"
+            android:text="מתנדב"
             android:textSize="24sp"
             tools:layout_editor_absoluteX="148dp"
             tools:layout_editor_absoluteY="552dp" />
 
         <Button
-            android:id="@+id/register_button"
-            android:onClick="register"
+            android:id="@+id/consumer_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/login_button"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="20dp"
-            android:text="הרשמה"
+            android:layout_above="@+id/volunteer_button"
+            android:layout_alignEnd="@+id/volunteer_button"
+            android:layout_alignRight="@+id/volunteer_button"
+            android:layout_marginBottom="43dp"
+            android:onClick="consumer"
+            android:text="צרכן"
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
             tools:layout_editor_absoluteX="142dp" />

@@ -73,18 +73,11 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/buyer_button"
-                android:onClick="go_to_order"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="קונה" />
-
-            <Button
                 android:id="@+id/helper_button"
                 android:onClick="go_to_helper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="עוזר" />
+                android:text="הרשמה" />
 
         </LinearLayout>
 
