@@ -1,15 +1,5 @@
-package com.example.nirel.hackathon;
+package com.tonikamitv.loginregister;
 
-import android.content.Intent;
-import android.support.design.widget.TextInputLayout;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.support.v7.widget.AppCompatEditText;
-import android.view.View;
-import android.widget.EditText;
-
-import org.json.JSONException;
-import org.json.JSONObject;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -31,36 +21,21 @@ public class RegisterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-    }
 
+        final EditText etAge = (EditText) findViewById(R.id.etAge);
+        final EditText etName = (EditText) findViewById(R.id.etName);
+        final EditText etUsername = (EditText) findViewById(R.id.etUsername);
+        final EditText etPassword = (EditText) findViewById(R.id.etPassword);
+        final Button bRegister = (Button) findViewById(R.id.bRegister);
 
-    public String[] read_user_input(View view){
-
-        final EditText usernameWrapper = findViewById(R.id.input_name);
-        final EditText emailWrapper = findViewById(R.id.input_email);
-        final EditText passwordWrapper = findViewById(R.id.input_password);
-        final EditText addressWrapper = findViewById(R.id.input_address);
-        final EditText paymentWrapper = findViewById(R.id.input_payment);
-        final EditText sayingWrapper = findViewById(R.id.input_saying);
-
-        String username = usernameWrapper.getText().toString();
-        String email = emailWrapper.getText().toString();
-        String password = passwordWrapper.getText().toString();
-        String address = addressWrapper.getText().toString();
-        String payment = paymentWrapper.getText().toString();
-        String saying = sayingWrapper.getText().toString();
-
-        return new String[] {username, email, password, address, payment, saying};
-    }
-
-    public void register(View view){
-
-        final String[] user_input = read_user_input(view);
-
-        final Button bRegister = findViewById(R.id.button_signup);
         bRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                final String name = etName.getText().toString();
+                final String username = etUsername.getText().toString();
+                final int age = Integer.parseInt(etAge.getText().toString());
+                final String password = etPassword.getText().toString();
+
                 Response.Listener<String> responseListener = new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
@@ -83,11 +58,10 @@ public class RegisterActivity extends AppCompatActivity {
                     }
                 };
 
-                RegisterRequest registerRequest = new RegisterRequest(user_input[0], user_input[1], user_input[2], Integer.parseInt(user_input[3]), user_input[4], user_input[5], responseListener);
+                RegisterRequest registerRequest = new RegisterRequest(name, username, age, password, responseListener);
                 RequestQueue queue = Volley.newRequestQueue(RegisterActivity.this);
                 queue.add(registerRequest);
             }
         });
-
     }
 }
