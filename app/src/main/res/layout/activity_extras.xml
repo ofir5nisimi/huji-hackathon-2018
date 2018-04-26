@@ -6,4 +6,33 @@
     android:layout_height="match_parent"
     tools:context=".ExtrasActivity">
 
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="184dp"
+        android:layout_height="191dp"
+        android:src="@drawable/basmatic_rice"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="200dp"
+        android:layout_height="188dp"
+        android:src="@drawable/rice_persian_classic_delux"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="194dp"
+        android:layout_height="197dp"
+        android:src="@drawable/balls"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/white_sugar" />
 </android.support.constraint.ConstraintLayout>

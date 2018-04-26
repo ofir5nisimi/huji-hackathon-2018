@@ -11,4 +11,19 @@ public class FruitActivity extends Activity {
         setContentView(R.layout.activity_fruit);
     }
 
+    public void add_pear(){
+
+    }
+
+    public void add_pink_lady(){
+
+    }
+
+    public void add_hermon(){
+
+    }
+
+    public void add_peach(){
+
+    }
 }
