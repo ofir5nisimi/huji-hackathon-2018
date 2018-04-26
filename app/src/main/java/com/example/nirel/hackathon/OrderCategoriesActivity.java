@@ -45,7 +45,7 @@ public class OrderCategoriesActivity extends  AppCompatActivity {
     public void extras(View view)
     {
         Intent extras = new Intent(this, ExtrasActivity.class);
-        startActivity(extras);
+        OrderCategoriesActivity.this.startActivity(extras);
     }
 
 
