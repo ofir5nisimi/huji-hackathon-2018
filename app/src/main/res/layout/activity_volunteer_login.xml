@@ -64,7 +64,7 @@
             </android.support.design.widget.TextInputLayout>
 
             <Button
-                android:id="@+id/login_button"
+                android:id="@+id/login_volunteer_button"
                 style="?android:textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -73,7 +73,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/helper_button"
+                android:id="@+id/register_volunteer_button"
                 android:onClick="go_to_helper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
