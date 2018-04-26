@@ -7,14 +7,14 @@ import android.view.View;
 
 public class OrderCategoriesActivity {
 
-    public void bread(View view)
-    {
-        Intent bread = new Intent(this, BreadActivity.class);
-    }
+//    public void bread(View view)
+//    {
+//        Intent bread = new Intent(this, BreadActivity.class);
+//    }
 
-    public void milk(View view)
-    {
-        Intent milk = new Intent()
-    }
+//    public void milk(View view)
+//    {
+//        Intent milk = new Intent()
+//    }
 
 }
