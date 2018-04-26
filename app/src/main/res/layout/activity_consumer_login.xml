@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.nirel.hackathon.LoginActivity">
+    android:background="@drawable/background_texture"
+    tools:context="com.example.nirel.hackathon.ConsumerLoginActivity">
 
     <!-- Login progress -->
     <ProgressBar
@@ -65,19 +66,22 @@
 
             <Button
                 android:id="@+id/login_consumer_button"
-                android:onClick=""
+                android:onClick="go_to_order"
                 style="?android:textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="התחבר"
-                android:textStyle="bold" />
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text="התחבר"/>
 
             <Button
                 android:id="@+id/register_consumer_button"
-                android:onClick="go_to_order"
+                android:onClick="register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textStyle="bold"
                 android:text="הרשמה" />
 
 

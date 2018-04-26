@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.nirel.hackathon.LoginActivity">
+    android:background="@drawable/background_texture"
+    tools:context="com.example.nirel.hackathon.VolunteerLoginActivity">
 
     <!-- Login progress -->
     <ProgressBar
@@ -69,15 +70,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:onClick="connect"
                 android:text="התחבר"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textSize="30sp"
+                />
 
             <Button
                 android:id="@+id/register_volunteer_button"
-                android:onClick="go_to_helper"
+                android:onClick="register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="הרשמה" />
+                android:text="הרשמה"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
 
         </LinearLayout>
 
