@@ -13,15 +13,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void register(View view) {
+    public void consumer(View view) {
         // Create an Intent to start the register activity
-        Intent myIntent = new Intent(this, RegisterActivity.class);
+        Intent myIntent = new Intent(this, ConsumerLoginActivity.class);
         MainActivity.this.startActivity(myIntent);
     }
 
-    public void login(View view) {
+    public void volunteer(View view) {
         // Create an Intent to start the login activity
-        Intent myIntent = new Intent(this, LoginActivity.class);
+        Intent myIntent = new Intent(this, VolunteerLoginActivity.class);
         MainActivity.this.startActivity(myIntent);
     }
 }
