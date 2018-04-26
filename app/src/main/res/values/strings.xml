@@ -15,4 +15,9 @@
         completions."
     </string>
     <string name="title_activity_bread">Bread</string>
+    <string name="title_activity_milk">MilkActivity</string>
+    <string name="title_activity_fruit">fruit</string>
+    <string name="title_activity_vegetables">vegetables</string>
+    <string name="title_activity_house_basics">HouseBasicsActivity</string>
+    <string name="title_activity_extras">ExtrasActivity</string>
 </resources>
