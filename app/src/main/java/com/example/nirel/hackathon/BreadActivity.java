@@ -2,6 +2,8 @@ package com.example.nirel.hackathon;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
 
 public class BreadActivity extends AppCompatActivity {
 
@@ -11,12 +13,14 @@ public class BreadActivity extends AppCompatActivity {
         setContentView(R.layout.activity_bread);
     }
 
-    public void add_bunnies(int quantity){
-        Basket.add("bunnies " + quantity + " x 8.9", 8.9 * quantity);
+    public void add_bunnies(View view){
+        Toast.makeText(this.getApplicationContext(), "פריט נוסף לסל", Toast.LENGTH_LONG).show();
+        Basket.add("bunnies        7.9");
     }
 
-    public void black_bread(int quantity){
-        Basket.add("black_bread " + quantity + " x 4.9", 4.9 * quantity);
+    public void add_black_bread(View view){
+        Toast.makeText(this.getApplicationContext(), "פריט נוסף לסל", Toast.LENGTH_LONG).show();
+        Basket.add("black_bread       4.9");
     }
 
 

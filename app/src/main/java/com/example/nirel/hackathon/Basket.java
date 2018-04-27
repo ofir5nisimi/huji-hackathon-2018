@@ -11,14 +11,14 @@ public class Basket extends AppCompatActivity {
 
     static public String[] basket = new String[12];
 
-    static public void add(String str, double item_price){
+    static public void add(String str){
         if (items_quantity < 12)
         {
             for (int i = 0; i < 12; i++){
                 if (basket[i] == null)
                 {
                     basket[i] = str;
-                    total_price += item_price;
+                    total_price += 10;
                     items_quantity++;
                     break;
                 }

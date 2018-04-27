@@ -9,7 +9,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/Group8"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -22,12 +22,18 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".loginActivity" />
+        <activity android:name=".DiaryActivity" />
+        <activity android:name=".PayActivity" />
         <activity android:name=".HelperMainActivity" />
         <activity android:name=".ConsumerLoginActivity" />
         <activity android:name=".VolunteerLoginActivity" />
         <activity android:name=".BreadActivity" />
+        <activity android:name=".FruitActivity" />
+        <activity android:name=".QrActivity" />
+        <activity android:name=".VegetablesActivity" />
+        <activity android:name=".HouseBasicsActivity" />
         <activity android:name=".ConsumerMainActivity"></activity>
+        <activity android:name=".BasketActivity"></activity>
     </application>
 
 </manifest>
