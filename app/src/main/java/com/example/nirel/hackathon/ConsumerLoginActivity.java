@@ -1,5 +1,6 @@
 package com.example.nirel.hackathon;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,7 +15,7 @@ public class ConsumerLoginActivity extends AppCompatActivity {
     }
 
     public void go_to_order(View view){
-        Intent order = new Intent(this, OrderCategoriesActivity.class);
+        Intent order = new Intent(this, ConsumerMainActivity.class);
         this.startActivity(order);
     }
 

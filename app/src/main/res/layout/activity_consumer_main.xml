@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nirel.hackathon.ConsumerMainActivity">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="match_parent"
+            android:layout_height="157dp"
+            app:srcCompat="@drawable/choose_items" />
+
+        <Button
+            android:id="@+id/bread"
+            android:onClick="bread"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:background="#9400D3"
+            android:text="לחם"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/milk"
+            android:onClick="milk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4B0082"
+            android:text="מוצרי חלב"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/fruits"
+            android:onClick="fruits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0000FF"
+            android:text="פירות"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/vegetables"
+            android:onClick="vegetables"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#008000"
+            android:text="ירקות"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/rice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFF00"
+            android:text="פסטות ואורז"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/drink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#008080"
+            android:text="שתיה"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/others"
+            android:onClick="others"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFF"
+            android:text="מוצרים אחרים"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

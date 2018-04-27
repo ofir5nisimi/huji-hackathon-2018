@@ -11,12 +11,12 @@ public class BreadActivity extends AppCompatActivity {
         setContentView(R.layout.activity_bread);
     }
 
-    public void add_bunnies(){
-
+    public void add_bunnies(int quantity){
+        Basket.add("bunnies " + quantity + " x 8.9", 8.9 * quantity);
     }
 
-    public void black_bread(){
-
+    public void black_bread(int quantity){
+        Basket.add("black_bread " + quantity + " x 4.9", 4.9 * quantity);
     }
 
 

@@ -26,7 +26,8 @@
         <activity android:name=".HelperMainActivity" />
         <activity android:name=".ConsumerLoginActivity" />
         <activity android:name=".VolunteerLoginActivity" />
-        <activity android:name=".BreadActivity"></activity>
+        <activity android:name=".BreadActivity" />
+        <activity android:name=".ConsumerMainActivity"></activity>
     </application>
 
 </manifest>
